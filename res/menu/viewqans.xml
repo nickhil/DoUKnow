@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#000000"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:text="@string/douknow"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+ 
+ <Spinner 
+      android:id="@+id/ddlCategory"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/txtHeader"
+      android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"  
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"/>
+ 
+  <Spinner 
+      android:id="@+id/ddlSubCategory"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ddlCategory"
+      android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"  />
+  
+    <ListView 
+                android:id="@+id/qAndList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ddlSubCategory"
+                />
+
+</RelativeLayout>

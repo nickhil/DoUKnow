@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	
+	android:layout_width="fill_parent"
+ 	android:layout_height="70dp"
+ 	android:background="@drawable/list2" 
+ 	android:layout_marginLeft="10dp"
+ 	android:layout_marginRight="10dp"
+ 	android:layout_marginTop="5dp" >
+ 	
+		<TextView android:id="@+id/txtAnswer" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:textSize="22dp"
+		android:textColor="#000000"
+		android:paddingLeft="10dp"
+		android:paddingTop="8dp"
+		/>
+	<TextView android:id="@+id/txtAnsweredBy" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/txtAnswer"
+		android:paddingLeft="10dp"
+		
+		android:textSize="22dp"
+		android:textColor="#000000"
+		/>
+		<TextView android:id="@+id/txtAnswerDate" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/txtAnswer"
+		android:layout_toRightOf="@+id/txtAnsweredBy"
+		android:layout_marginLeft="5dp"
+		android:paddingLeft="10dp"
+		android:textSize="22dp"
+		android:textColor="#000000"
+		/>
+	
+	
+</RelativeLayout>

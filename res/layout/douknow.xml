@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+  >
+
+  
+    
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#000000"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:text="@string/douknow"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" 
+        android:textColor="#000000"
+        android:hint="@string/txtUserName"
+        android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/txtHeader"
+         android:background="@drawable/edt_bg"
+    android:paddingLeft="15dp" />
+    
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtUserName"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" 
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:hint="@string/txtPwd"
+        android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:background="@drawable/edt_bg"
+         android:paddingLeft="15dp"/>
+    
+    <RelativeLayout 
+        android:id="@+id/rl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edtPassword"
+        android:layout_marginTop="15dp">
+      <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnLogin"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/edtPassword"
+        android:background="@drawable/button_selector"
+        android:layout_alignLeft="@+id/edtUserName"
+        android:onClick="loginUser"
+        />
+      
+        <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnSignUp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/edtPassword"
+        android:background="@drawable/button_selector"
+        android:layout_toRightOf="@+id/btnLogin"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToSignUp"
+        />
+        
+        </RelativeLayout>
+</RelativeLayout>

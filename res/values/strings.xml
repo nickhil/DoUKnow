@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">DoUKnow</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash_screen">DoUKnow</string>
+    <string name="douknow">Do-U-Know</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSignUp">SignUp</string>
+<string name="txtUserName">User Name </string>
+<string name="txtPwd">Password </string>
+<string name="txtForgotPwd"><u>Forgot Password?</u></string>
+<string name="txtFullName">Name</string>
+<string name="txtConfirmPwd">Confirm</string>
+<string name="txtProfession">Profession</string>
+<string name="txtMobile">Mobile</string>
+<string name="txtEmail">Email</string>
+<string name="btnSubmit">Submit</string>
+<string name="btnPost">Post</string>
+<string name="btnReset">Reset</string>
+<string name="btnView">View Questions</string>
+<string name="questionHere">Enter question here</string>
+<string name="ws_SaveUser">http://doyouknow.somee.com/douknow.asmx/SaveUser</string>
+<string name="ws_LoginUser">http://doyouknow.somee.com/douknow.asmx/LoginUser</string>
+<string name="ws_SubmitQuestion">http://doyouknow.somee.com/douknow.asmx/SubmitQuestion</string>
+<string name="ws_GetQuestions">http://doyouknow.somee.com/douknow.asmx/GetQuestions</string>
+<string name="ws_PostAnswer">http://doyouknow.somee.com/douknow.asmx/PostAnswer</string>
+<string name="ws_GetAnswers">http://doyouknow.somee.com/douknow.asmx/GetAnswers</string>
+</resources>
